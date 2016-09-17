@@ -1,2 +1,2 @@
 # docker-php56
-Docker Contianer for unit testing
+Docker Container for unit testing
