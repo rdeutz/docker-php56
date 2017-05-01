@@ -11,6 +11,6 @@ RUN apt-get update && apt-get install -y libmcrypt-dev wget \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
+COPY config/php.ini /usr/local/etc/php/
 
 
